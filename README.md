@@ -1,10 +1,10 @@
-# GPT-2 (124M) PyTorch Implementation 
+# miniGPT (A GPT-2 (124M) PyTorch Implementation)
 
-A PyTorch implementation of GPT-2 (124M parameters) trained from scratch on the FineWebEdu dataset. This implementation follows optimization techniques from the GPT-3 paper and includes various performance improvements for efficient training.
+miniGPT is a PyTorch implementation of GPT-2 (124M parameters) trained from scratch on the FineWebEdu dataset. This implementation follows optimization techniques from the GPT-3 paper and includes various performance improvements for efficient training.
 
 
 ## Model Performance Highlight 🚀
-| Metric   | **miniGPT** | GPT-2 Baseline |
+| Metric   | **miniGPT** | GPT-2 124M |
 |----------|---------------|----------------|
 | HellaSwag Accuracy | **30.42%** 🎯 | 29.55% |
 
