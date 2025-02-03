@@ -2,12 +2,15 @@
 
 A PyTorch implementation of GPT-2 (124M parameters) trained from scratch on the FineWebEdu dataset. This implementation follows optimization techniques from the GPT-3 paper and includes various performance improvements for efficient training.
 
-![Training Loss](assets/loss_curve.png)
 
 ## 🚀 Model Performance Highlight
 | Metric   | **My Model** | GPT-2 Baseline |
 |----------|---------------|----------------|
 | HellaSwag Accuracy | **30.42%** 🎯 | 29.55% |
+
+
+![Training Loss](assets/loss_curve.png)
+
 
 Achieved a accuracy boost over the original GPT-2 on HellaSwag!
 
