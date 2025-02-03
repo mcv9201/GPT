@@ -1,4 +1,4 @@
-# miniGPT [ A GPT-2 (124M) PyTorch Implementation ]
+# miniGPT
 
 miniGPT is a PyTorch implementation of GPT-2 (124M parameters) trained from scratch on the FineWebEdu dataset. This implementation follows optimization techniques from the GPT-3 paper and includes various performance improvements for efficient training.
 
