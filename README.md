@@ -97,5 +97,5 @@ response = model.generate(input)
 
 ## Acknowledgments 🙏
 
-- Based on Andrej Karpathy's video [ Let's reproduce GPT-2 (124M)]
+- Based on Andrej Karpathy's video [ Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)
 - Training infrastructure used [JarvisLabs.ai](https://jarvislabs.ai/)
