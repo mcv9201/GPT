@@ -59,7 +59,7 @@ Step-by-step improvements achieved during development:
 3. bfloat16 conversion: 340ms/step
 4. torch.compile: 150ms/step
 5. Flash Attention: 107ms/step
-6. Number optimization: 100ms/step
+6. Vocab size optimization: 100ms/step
 
 ## Installation 🛠️
 
