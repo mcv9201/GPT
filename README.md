@@ -88,7 +88,6 @@ torchrun --nproc_per_node=6 train.py
 
 ```python
 from predict import GPTPredict
-import torch
 
 model = GPTPredict('path/to/checkpoint')
 input = 'I am a language model'
