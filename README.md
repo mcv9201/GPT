@@ -65,7 +65,7 @@ Step-by-step improvements achieved during development:
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone [repo-url]
 cd [repo-name]
 
 # Install requirements
@@ -81,30 +81,21 @@ pip install -r requirements.txt
 python train.py
 
 # For distributed training
-torchrun --nproc_per_node=3 train.py
+torchrun --nproc_per_node=6 train.py
 ```
 
 ### Inference
 
 ```python
-from model import GPT2
+from predict import GPTPredict
 import torch
 
-model = GPT2.from_pretrained('path/to/checkpoint')
-# Generate text using your model
+model = GPTPredict('path/to/checkpoint')
+input = 'I am a language model'
+response = model.generate(input)
 ```
-
-## Development Process 🔄
-
-The process included:
-1. Initial GPT-2 implementation
-2. Performance optimizations
-3. Distributed training setup
-4. Dataset processing and training
-5. Model evaluation and checkpointing
-
 
 ## Acknowledgments 🙏
 
-- Based on Andrej Karpathy's video
+- Based on Andrej Karpathy's video [ Let's reproduce GPT-2 (124M) (https://www.youtube.com/watch?v=l8pRSuU81PU)]
 - Training infrastructure used [JarvisLabs.ai](https://jarvislabs.ai/)
